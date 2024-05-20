@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Header Section  -->
+    <header id="Home">
+        <div class="container header-container">
+          
+            <div class="header-left">
+                <img src="./img/profile-pic.jpg" class="picture" alt="profile-pic">
+            </div>
+            <div class="header-right">
+                <p><strong>Hello,I'm</strong></p>
+                <h1>Aastha Suman</h1>
+                <h2>Web Developer</h2>
+                <div class="header-social">
+                    <a href="https://www.linkedin.com/in/aastha-suman-64085a1a9/" class="social"><img
+                            src="./img/linkedin.webp" alt="linkedin"></a>
+                    <a href="" class="social"><img src="./img/twitter.webp" alt="twitter"></a>
+                    <a href="https://github.com/mangooes1" class="social"><img src="./img/github-sign.webp"
+                            alt="Github"></a>
+                </div>
+            </div>
+          </div>
+         
+    </header>
+    <!-- about section -->
+    <section id="About">
+        <p class="heading-p">Get to know more</p>
+        <h1 class="heading">About Me</h1>
+        <div class="container about-container">
+            <div class="about-left">
+
+                <p>&#127891; I'm a Graduate of Bachelors of Technology in Information Technology at
+                    MAKAUT University.</p>
+                <p>&#128188; Frontend Developer developer creating seamless and engaging web experiences</p>
+                <p>&#128640; Proficient in JavaScript and passionate about building interactive web applications.</p>
+                <p>&#128218; Continuous learner with a keen interest in staying updated with the latest tech trends.
+                </p>
+                <p>&#127752; Enjoy creating intuitive and visually appealing user experiences.</p>
+                <p>&#127918; Outside coding, I love watching anime, reading books and exploring new places.</p>
+                <button download="">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <!-- Project section -->
+    <section id="Projects">
+        <div class="container project-container">
+            <h1 class="heading">Projects</h1>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img class="project-img" src="./img/portfolio.png" alt="landin-page">
+                <div class="header-action-aria">
+                    <a href="https://github.com/mangooes1/codsoft-Internship-virtual/tree/main/level1-Task%201"
+                        class="btn">Github</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Project 2</h3>
+                <img class="project-img" src="./img/landing-page.png" alt="landin-page">
+                <div class="header-action-aria">
+                    <a href="https://github.com/mangooes1/codsoft-Internship-virtual/tree/main/level1-Task%202"
+                        class="btn">Github</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Project 3</h3>
+                <img class="project-img" src="./img/calculator.png" alt="landin-page">
+                <div class="header-action-aria">
+                    <a href="https://github.com/mangooes1/codsoft-Internship-virtual/tree/main/level1-Task%203"
+                        class="btn">Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact Section -->
+    <section id="Contact">
+        <div class="container contact-container">
+            <h1 class="heading">Contact Me</h1>
+            <form>
+                <div class="row">
+                    <div class="col-4 col-t-6 col-p-12"><label><span class="fa fa-envelope"></span> EMAIL <input type="email" required></label></div>
+                    <div class="col-4 col-t-6 col-p-12"><label class="contact-name"><span class="fa fa-user"></span> NAME <input type="text" required></label></div>
+                    <div class="col-8 col-t-12"><label><span class="fa fa-pencil"></span> MESSAGE <textarea required rows="3" cols="30"></textarea></label></div>
+                    <div class="col-4 col-t-12"><button class="btn"><span class="fa fa-check-circle-o"></span> Submit</button></div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>&copy; Aastha Suman</p>
+        </div>
+    </footer>
 </body>
+
 </html>
