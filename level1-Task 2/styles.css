@@ -47,9 +47,9 @@ header{ padding-top: 9rem;}
 .project-img{ border: 0.2rem solid #ff0000;}
 .header-action-aria{ margin-top: 1rem; margin-bottom: 1rem; display: flex;justify-content: center; align-items: center;  gap: .5rem;}
 .header-action-aria a{ text-decoration: none;}
-.btn{ padding: 1rem; border: 2px solid #ff0000;  border-radius: 16px; font-weight: 600; font-size: 14px; }
+.btn{padding: 1rem; border: 2px solid #ff0000;  border-radius: 16px; font-weight: 600; font-size: 14px; text-decoration: none; margin-top: 2rem; }
 .btn:hover{ color: #000; background-color: #ff0000; border: #ff5252;}
-
+.about-btn{ }
 .contact-container{  margin-top: 4rem;}
 .row{ display: flex; flex-flow: row wrap; margin: 0 -1rem; color: #fff;}
 .col-4{ flex-basis: 33.33%; max-width: 33.33%;}
